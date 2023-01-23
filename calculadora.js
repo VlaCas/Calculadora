@@ -1,2 +1,2 @@
 let operacion = [];
-let calculadora = (tecla) => {tecla == "igual" ? operacion = [eval(operacion.join(""))]: tecla == "del" ? operacion.pop(): tecla == "ac" ? operacion = [] : operacion.push(tecla);document.getElementById("pantalla").innerHTML = operacion.join("");}
+let calculadora = (tecla) => {tecla == "igual" ? operacion = [eval(operacion.join(""))]: tecla == "del" ? operacion.pop(): tecla == "ac" ? operacion = [] : operacion.push(tecla);document.getElementById("texto").innerHTML = operacion.join("");}
